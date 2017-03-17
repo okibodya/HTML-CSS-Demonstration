@@ -1,0 +1,165 @@
+/*
+	Cascading Style Sheets
+	
+	CSS uses selectors instead of tags:
+
+body {
+		color: black;
+	 }
+
+selector – an html element, class, or ID
+examples: p, img, table
+
+property – a style element
+examples: color, font-size, width
+
+value – tells style element what to do
+examples: black, 12pt, 100%
+
+p {
+	color: red;
+	background-color: black;
+	text-align: right;
+	font-family: Garamond;
+	font-size: 40px;
+}
+
+body {
+	color: black;
+	background-color: white;
+	text-align: left;
+	font-family: arial black;
+	font-size: 20px;
+}
+
+body{
+	background-image: url("swimmingPolarBear.jpg"); /* image must be in same folder as CSS file
+	background-repeat: no-repeat; /*If you don't want it to the image to repeat
+	background-size: cover; /*if you want you image to be cover the whole page
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-image: url("swimmingPolarBear.jpg"); /* image must be in same folder as CSS file
+	background-repeat: no-repeat; /*If you don't want it to the image to repeat
+	background-size: cover; /*if you want you image to be cover the whole page
+}
+
+*/
+
+/*This ID is referenced in HTML code*/
+
+
+* 
+{
+	box-sizing: border-box;
+}
+
+.employeePic
+{
+	max-width: 10%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+.nameAndContactInfo
+{
+
+	background-color: #33b5e5;
+	text-align: center;
+	font: bold 20px sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+li a.active 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #555;
+    color: white;
+}
+.column
+{
+	float: left;
+	padding: 15px;
+}
+
+}
+.clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu
+{
+	width: 25%
+}
+
+.content
+{
+	width: 75%;
+}
+
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li
+{
+	padding: 8px;
+	margin-bottom: 8px;
+	background-color: #33b5e5;
+	color: #ffffff;
+}
+
+.menu li:hover 
+{
+    background-color: #0099cc;
+}
+
+.resumeSection
+{
+	margin: 0 0 15px 0;
+	padding: 0;
+	font: bold 20px sans-serif;
+}
+
+.employeePosition
+{
+	margin: 0;
+	padding: 0;
+	font: bold 15px sans-serif;
+}
+
+.employementCompany
+{
+	margin: 0;
+	padding: 0;
+	font: bold 14px sans-serif;
+}
+
+.employmentDate
+{
+	margin: 0;
+	padding: 0;
+	font: bold 14px sans-serif;
+	float: right;
+	width: 150px;
+}
